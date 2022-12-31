@@ -1562,3 +1562,8 @@ section {
   color: black;
   display: block;
 }
+
+@viewport{
+    zoom: 1.0;
+    width: device-width;
+}
