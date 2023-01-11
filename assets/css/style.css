@@ -312,7 +312,7 @@ border-color: red;
   color: #cc1616;
 }
 
-@media (max-width: 991px) {
+@media (max-width: 600px) {
   .mobile-nav-toggle {
     display: block;
   }
