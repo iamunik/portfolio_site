@@ -314,7 +314,7 @@ border-color: red;
 
 @media (max-width: 600px) {
   .mobile-nav-toggle {
-    display: block;
+    display: inline;
   }
 
   .navbar ul {
