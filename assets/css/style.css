@@ -96,7 +96,7 @@ border-color: red;
 /*--------------------------------------------------------------
 # Disable aos animation delay on mobile devices
 --------------------------------------------------------------*/
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 600px) {
   [data-aos-delay] {
     transition-delay: 0 !important;
   }
