@@ -265,9 +265,9 @@ border-color: red;
 */
 .mobile-nav-toggle {
   color: #fff;
-  font-size: 20px;
+  font-size: 28px;
   cursor: pointer;
-  display: block;
+  display: none;
   line-height: 0;
   transition: 0.5s;
 }
@@ -319,7 +319,7 @@ border-color: red;
 
 .navbar-mobile a,
 .navbar-mobile a:focus {
-  padding: 10px 20px;
+  padding: 10px 10px;
   font-size: 15px;
   color: #191919;
 }
