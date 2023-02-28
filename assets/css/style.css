@@ -5,9 +5,6 @@ body {
   font-family: "Open Sans", sans-serif;
   color: black;
   background-color: white ;
-/*  color: white;*/
-/*  background-color: #002244;*/
-/*  background-color: #F5F5DC;*/
 }
 
 a {
@@ -1535,6 +1532,79 @@ section {
 }
 
 /* rtl:end:remove */
+
+/* Removed from the main HTML */
+.nav-item .nav-link:hover{
+  background-color: black;
+  color: white;
+}
+
+.nav-item .nav-link{
+  color: black;
+}
+
+.bttn1 .bttn2 .bttn3 .bttn:hover{
+  background-color: grey;
+  color: white;
+}
+
+.carousel-inner{
+  height: 670px;
+}
+
+.carousel-caption{
+  top: 55%;
+}
+
+#github:hover{
+  color: black;
+}
+
+#linkedin:hover{
+  color: blue;
+}
+
+#twitter:hover{
+  color: skyblue;
+}
+
+#n{
+  color: black;
+}
+
+#n:hover{
+  background-color: goldenrod;
+  color: white;
+}
+
+#l{
+  background-color: white;
+}
+
+#g_p{
+  color: goldenrod;
+}
+
+#lr_m:hover{
+  background-color: goldenrod;
+  color: white;
+  border: none;
+
+}
+
+.ss{
+  text-align: center;
+  letter-spacing: 1px;
+  margin-left: 33%;
+}
+
+#bodyz{
+  text-align: justify;
+}
+
+#thecolperson{
+  text-align: justify;
+}
 
 /* RESPONSIVE CSS
 -------------------------------------------------- */

@@ -1,72 +1,5 @@
 <!DOCTYPE html>
 <html>
-<style type="text/css">
-  .nav-item .nav-link:hover{
-    background-color: black;
-    color: white;
-  }
-
-  .nav-item .nav-link{
-    color: black;
-  }
-
-  .bttn1 .bttn2 .bttn3 .bttn:hover{
-    background-color: grey;
-    color: white;
-  }
-
-  .carousel-inner{
-    height: 670px;
-  }
-
-  .carousel-caption{
-    top: 55%;
-  }
-
-  #github:hover{
-    color: black;
-  }
-
-  #linkedin:hover{
-    color: blue;
-  }
-
-  #twitter:hover{
-    color: skyblue;
-  }
-
-  #n{
-    color: black;
-  }
-
-  #n:hover{
-    background-color: goldenrod;
-    color: white;
-  }
-
-  #l{
-    background-color: white;
-  }
-
-  #g_p{
-    color: goldenrod;
-  }
-
-  #lr_m:hover{
-    background-color: goldenrod;
-    color: white;
-    border: none;
-
-  }
-
-  .ss{
-    text-align: center;
-    letter-spacing: 1px;
-    margin-left: 33%;
-  }
-
-</style>
-
 <head>
   <link href="assets/images/OYA.png" rel="icon">
   <title>
@@ -80,7 +13,7 @@
   <link href="assets/vendor/animate.css/animate.min.css" rel="stylesheet">
   <link href="assets/vendor/aos/aos.css" rel="stylesheet">
   <link href="assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
-  <link href="assets/vendor/bootstrap-icons/bootstrap-icons.css" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.3/font/bootstrap-icons.css">
   <link href="assets/vendor/boxicons/css/boxicons.min.css" rel="stylesheet">
   <link href="assets/vendor/glightbox/css/glightbox.min.css" rel="stylesheet">
   <link href="assets/vendor/swiper/swiper-bundle.min.css" rel="stylesheet">
@@ -99,6 +32,7 @@
         <li class="nav-item"><a id="n" href="#theperson" class="nav-link">The Person</a></li>
         <li class="nav-item"><a id="n" href="#thepurpose" class="nav-link">The Purpose</a></li>
         <li class="nav-item"><a id="n" href="#icon-grid" class="nav-link">Projects</a></li>
+        <li class="nav-item"><a id="n" href="#skills" class="nav-link">Skills</a></li>
         <li class="nav-item"><a id="n" href="#contact_me" class="nav-link">Contact</a></li>
       </ul>
     </header>
@@ -156,7 +90,7 @@
       </div>
       <div class="col-lg-6 bttn3" data-aos="fade-left">
         <h1 class="display-5 fw-bold lh-1 mb-3 animate__animated animate__fadeInDown">THE <span id="g_p">PERSON</span></h1>
-        <p id="bodyz" class="lead"><strong id="name">OGUNDEKO OLUWASEUN EMMANUEL</strong> is a computer science student, an asipring data scientist and also a self taught web-developer for the sole purpose of the creation of this amazing portfolio site, as it is said to people in the field of tech "Have a website that talks about you" so, here is mine.<br><br>I am a Python programmer certified by NIIT Fortesoft, I also have completed soft skill trainings from Jobberman. I actually didn't start my career with Computer science as a course as I have already had hands on experience in the computer engineering sector before I was called to 'code'.</p> <p class="lead collapse" id="thecolperson">I have approximatey 3 years of learning experience in python programming, I have completed different projects of which I will explain in details under the project section and little to no industry based experince, meaning I have not worked in a company before.
+        <p id="bodyz" class="lead"><strong id="name">OGUNDEKO OLUWASEUN EMMANUEL</strong> is a computer science student, an asipring data scientist and also a self taught web-developer for the sole purpose of the creation of this amazing portfolio site, as it is said to people in the field of tech "Have a website that talks about you" so, here is mine.<br><br>I am a Python programmer certified by NIIT Fortesoft, I also have completed soft skill trainings from Jobberman. I actually didn't start my career with Computer science as a course as I have already had hands on experience in the computer engineering sector before I was called to 'code'.</p> <p class="lead collapse" id="thecolperson">I have approximatey 3 years of learning experience with the python programming and have completed several projects of which I will explain some in details under the project section with their respective links to view them.
         </p>
         <div class="d-grid gap-2 d-md-flex justify-content-md-start">
           <button id="lr_m" type="button" class="btn btn-dark btn-lg px-4 me-md-2 bttn animate__animated animate__fadeInUp" data-bs-toggle='collapse' data-bs-target='#thecolperson' aria-expanded='false'>Read More</button>
@@ -173,8 +107,8 @@
     <div class="row flex-lg-row-reverse align-items-center g-5 py-5 bttn2">
       <div class="col-lg-6 bttn3" data-aos="fade-right">
         <h1 class="display-5 fw-bold lh-1 mb-3 animate__animated animate__fadeInDown">THE <span id="g_p">PURPOSE</span></h1>
-        <p id="bodyz" class="lead">The world is a world of DATA, data is everywhere and my purpose is to make meaning from what many deem meaningless.<br><br>
-          Data is coming to change how business and individuals make decisions, my purpose is to also help you perfect your data in a way that it will be very readable and neat for your business intelligence analyst to work with, also as a Machine Learning engineer my purpose is to assist my client get value for money.<p class="lead collapse" id="thecolpurpose">I am OGUNDEKO OLUWASEUN my sole purpose is to help YOU work on your data.
+        <p id="bodyz" class="lead">The world is a world of DATA, data is everywhere and my purpose is to make meaning from what many see as meaningless.<br><br>
+          Data is going to totally change how business and individuals make decisions, my purpose is to also help you work on and perfect your data in a way that it will be very readable and neat for the board to make 'Data-Driven' decisions, also as a Machine Learning engineer my purpose is to assist my client get value for money.<p class="lead collapse" id="thecolpurpose">I am OGUNDEKO OLUWASEUN my sole purpose is to help YOU understand and work on your data.
         </p>
         <div class="d-grid gap-2 d-md-flex justify-content-md-start">
           <button id="lr_m" type="button" class="btn btn-dark btn-lg px-4 me-md-2 bttn animate__animated animate__fadeInUp" data-bs-toggle='collapse' data-bs-target='#thecolpurpose' aria-expanded='false'>Read More</button>
@@ -221,7 +155,7 @@
             <img src="assets/images/books.png">
 
             <div class="card-body">
-              <p class="card-text">I created a web scrapper using selenium; the code scrapes one of the most scrapped website in the history of scrapping (books.toscrape.com) the user is then permitted to select the amount of quotes he wants to scrape, the data is arranged in a pandas DataFrame and the the user is also permitted to name the file for it to be saved as a csv file.</p>
+              <p style="text-align: justify;" class="card-text">I created a web scrapper using selenium; the code scrapes one of the most scrapped website in the history of scrapping (books.toscrape.com) the user is then permitted to select the amount of quotes he wants to scrape, the data is arranged in a pandas DataFrame and the the user is also permitted to name the file for it to be saved as a csv file.</p>
               <div class="d-flex justify-content-between align-items-center">
                 <div class="btn-group">
                   <button id="lr_m" type="button" class="btn btn-sm btn-outline-secondary"><a class="nav-link" href="https://github.com/iamunik/web_scraping/blob/main/booksToScrape.py">View Project</a></button>
@@ -236,7 +170,7 @@
           <div class="card shadow-sm">
             <img src="assets/images/to_do.png">
             <div class="card-body">
-              <p class="card-text">This was a simple to-do list created also with python, I used POSTGRESQL as the database for the completion of this project.<br>This project shows my handling of simple CRUD operations, Creating new tasks, Recovering all tasks from the database, Updating tasks (to update tasks to completed or not).</p>
+              <p style="text-align: justify;" class="card-text">This was a simple to-do list created also with python, I used POSTGRESQL as the database for the completion of this project.<br>This project shows my handling of simple CRUD operations, Creating new tasks, Recovering all tasks from the database, Updating tasks (to update tasks to completed or not).</p>
               <div class="d-flex justify-content-between align-items-center">
                 <div class="btn-group">
                   <button id="lr_m" type="button" class="btn btn-sm btn-outline-secondary"><a class="nav-link" href="https://github.com/iamunik/PostgreSQL/blob/main/to_do_list.py">View Project</a></button>
@@ -251,7 +185,7 @@
           <div class="card shadow-sm">
             <img src="assets/images/gender.png">
             <div class="card-body">
-              <p class="card-text">I called this project 'alittleanalysis' because it is a little analysis portal made up of random but predefined values created for the analysis. <br>I made it possible to filter the table based on what condition you want to perform (maximum of 2 conditions), you could also plot a bar-chart for whatever column you want to visualize.</p>
+              <p style="text-align: justify;" class="card-text">I called this project 'alittleanalysis' because it is a little analysis portal made up of random but predefined values created for the analysis. <br>I made it possible to filter the table based on what condition you want to perform (maximum of 2 conditions), you could also plot a bar-chart for whatever column you want to visualize.</p>
               <div class="d-flex justify-content-between align-items-center">
                 <div class="btn-group">
                   <button id="lr_m" type="button" class="btn btn-sm btn-outline-secondary"><a class="nav-link" href="https://github.com/iamunik/analysis_py/blob/main/littleAnalysis.py">View Project</a></button>
@@ -264,7 +198,7 @@
           <div class="card shadow-sm">
             <img src="assets/images/quotes.png">
             <div class="card-body">
-              <p class="card-text">I created a web scrapper using selenium; the code scrapes one of the most scrapped website in the history of scrapping (quotes.toscrape.com) the user is then permitted to select the amount of quotes he wants to scrape, the data is arranged in a pandas DataFrame and the the user is also permitted to name the file for it to be saved as a csv file.</p>
+              <p style="text-align: justify;" class="card-text">I created a web scrapper using selenium; the code scrapes one of the most scrapped website in the history of scrapping (quotes.toscrape.com) the user is then permitted to select the amount of quotes he wants to scrape, the data is arranged in a pandas DataFrame and the the user is also permitted to name the file for it to be saved as a csv file.</p>
               <div class="d-flex justify-content-between align-items-center">
                 <div class="btn-group">
                   <button id="lr_m" type="button" class="btn btn-sm btn-outline-secondary"><a class="nav-link" href="https://github.com/iamunik/web_scraping/blob/main/quotesToScrape.py">View Project</a></button>
@@ -277,7 +211,7 @@
           <div class="card shadow-sm">
             <img src="assets/images/billboard.png">
             <div class="card-body">
-              <p class="card-text">This was my first ever major python project from my time at NIIT(ikeja), I was asked to simulate a billboard voting system using python, simulated the voting of songs and how they are ranked and I was to use the SQLite database for python however, after everything I lost the code so, I remodified it; welcome to billboard 2.0.</p>
+              <p style="text-align: justify;" class="card-text">This was my first ever major python project from my time at NIIT(ikeja), I was asked to simulate a billboard voting system using python, simulated the voting of songs and how they are ranked and I was to use the SQLite database for python however, after everything I lost the code so, I remodified it; welcome to billboard 2.0.</p>
               <div class="d-flex justify-content-between align-items-center">
                 <div class="btn-group">
                   <button id="lr_m" type="button" class="btn btn-sm btn-outline-secondary"><a class="nav-link" href="https://github.com/iamunik/PostgreSQL/blob/main/billboardSim.py">View Project</a></button>
@@ -290,7 +224,7 @@
           <div class="card shadow-sm">
             <img src="assets/images/car_analysis.png">  
             <div class="card-body">
-              <p class="card-text">This repo contains 3 different files; a data cleaning file, a data engineering file and a model creation file; data was given and it was cleaned, the cleaned data was engineered to give good features for training a model and also the features were used to create a model and validation techniques were used to select the best model.</p>
+              <p style="text-align: justify;" class="card-text">This repo contains 3 different files; a data cleaning file, a data engineering file and a model creation file; data was given and it was cleaned, the cleaned data was engineered to give good features for training a model and also the features were used to create a model and validation techniques were used to select the best model.</p>
               <div class="d-flex justify-content-between align-items-center">
                 <div class="btn-group">
                   <button id="lr_m" type="button" class="btn btn-sm btn-outline-secondary"><a class="nav-link" href="https://github.com/iamunik/car_price_analysis">View Project</a></button>
@@ -303,7 +237,7 @@
           <div class="card shadow-sm">
             <img src="assets/images/loan.png">  
             <div class="card-body">
-              <p class="card-text">This is a Loan Validation model, I created this and uploaded it on Kaggle, this project uses a Supervised Machine Learning model to be able to tell if a user is eligible for a loan with the company. The data provided was cleaned, EDA was done to better understand the data, features were engineered, the model was trained and results were gotten.</p>
+              <p style="text-align: justify;" class="card-text">This is a Loan Validation model, I created this and uploaded it on Kaggle, this project uses a Supervised Machine Learning model to be able to tell if a user is eligible for a loan with the company. The data provided was cleaned, EDA was done to better understand the data, features were engineered, the model was trained and results were gotten.</p>
               <div class="d-flex justify-content-between align-items-center">
                 <div class="btn-group">
                   <button id="lr_m" type="button" class="btn btn-sm btn-outline-secondary"><a class="nav-link" href="https://www.kaggle.com/code/oluwaseunogundeko/loan-validation-status-prediction">View Project</a></button>
@@ -316,7 +250,7 @@
           <div class="card shadow-sm">
             <img src="assets/images/hokey.png">  
             <div class="card-body">
-              <p class="card-text">I created a web scrapper using selenium; the code scrapes this site (scrapethissite.com/pages/forms/), this code is divided into two parts; <br>PART 1, once the code runs and the option 1 is selected the code scrapes the entire site; PART 2 the user can search for a preferred team before scraping commences.</p>
+              <p style="text-align: justify;" class="card-text">I created a web scrapper using selenium; the code scrapes this site a site built for practice (scrapethissite.com/pages/forms/), this code is divided into two parts; <br>PART 1, once the code runs and the option 1 is selected the code scrapes the entire site; PART 2 the user can search for a preferred team before scraping commences.</p>
               <div class="d-flex justify-content-between align-items-center">
                 <div class="btn-group">
                   <button id="lr_m" type="button" class="btn btn-sm btn-outline-secondary"><a class="nav-link" href="https://github.com/iamunik/web_scraping/blob/main/hockeyScrape.py">View Project</a></button>
@@ -329,7 +263,7 @@
           <div class="card shadow-sm">
             <img src="assets/images/supermarket.png">  
             <div class="card-body">
-              <p class="card-text">This project is an analysis project. I got a dataset for a supermarket store and I was tasked to bring out KPI's based on the data, analyse the relationship between certain column, perform trend analysis by day and time also to perform Revenue, Cost and Ratings analysis and before all that the data was imported and worked on.</p>
+              <p style="text-align: justify;" class="card-text">This project is an analysis project. I got a dataset for a supermarket store and I was tasked to bring out KPI's based on the data, analyse the relationship between certain column, perform trend analysis by day and time also to perform Revenue, Cost and Ratings analysis and before all that the data was imported and worked on.</p>
               <div class="d-flex justify-content-between align-items-center">
                 <div class="btn-group">
                   <button id="lr_m" type="button" class="btn btn-sm btn-outline-secondary"><a class="nav-link" href="https://github.com/iamunik/analysis_py/blob/main/supermarket_analysis.ipynb">View Project</a></button>
@@ -343,7 +277,73 @@
     </div>
   </section>
 
+  <!-- Skills section -->
+  <div class="border-top"></div>
+  <br  id="skills">
+  <br>
+  
+  <section class="container px-4 py-5" data-aos="fade-up">
+    <h1 class="pb-2 border-bottom text-center display-5 fw-bold">Skills <span id='g_p'>Section</span></h1>
 
+    <div class="row row-cols-1 row-cols-sm-2 row-cols-md-3 row-cols-lg-4 g-4 py-5">
+      <div class="col d-flex align-items-start">
+        <i class="bi bi-filetype-py text-muted flex-shrink-0 me-3" style="font-size: 20px;"></i>
+        <div>
+          <h3 class="fw-bold mb-0 fs-4">Python</h3>
+          <p>As shown in <b><a id='g_p' href="https://github.com/iamunik">My Projects</a></b>, I have adequate handling of the Python programming language.</p>
+        </div>
+      </div>
+      <div class="col d-flex align-items-start">
+        <i class="bi bi-database-fill text-muted flex-shrink-0 me-3" style="font-size: 20px;"></i>
+        <div>
+          <h3 class="fw-bold mb-0 fs-4">Data-Driven</h3>
+          <p>Projects in my <b><a id="g_p" href="https://github.com/iamunik/analysis_py">Analysis repository</a></b> shows that I understand data and make data-driven decisions.</p>
+        </div>
+      </div>
+      <div class="col d-flex align-items-start">
+        <i class="bi bi-cpu-fill text-muted flex-shrink-0 me-3" style="font-size: 20px;"></i>
+        <div>
+          <h3 class="fw-bold mb-0 fs-4">Sci-kit Learn</h3>
+          <p>As shown in my <b><a id="g_p" href="https://www.kaggle.com/code/oluwaseunogundeko/loan-validation-status-prediction">Loan Validation Project</a></b> I have an adequate undersanding of Sci-kit Learn.</p>
+        </div>
+      </div>
+      <div class="col d-flex align-items-start">
+        <i class="bi bi-filetype-sql text-muted flex-shrink-0 me-3" style="font-size: 20px;"></i>
+        <div>
+          <h3 class="fw-bold mb-0 fs-4">PostgreSQL</h3>
+          <p>As shown in my <b><a id="g_p" href="https://github.com/iamunik/PostgreSQL">PostgreSQL repository</a></b> I have adequate undersanding of PostgreSQL database.</p>
+        </div>
+      </div>
+      <div class="col d-flex align-items-start">
+        <i class="bi bi-activity text-muted flex-shrink-0 me-3" style="font-size: 20px;"></i>
+        <div>
+          <h3 class="fw-bold mb-0 fs-4">Selenium</h3>
+          <p>As shown in my <b><a id="g_p" href="https://github.com/iamunik/web_scraping">Web-Scraping repository</a></b> I have adequate undersanding of the Selenium Library.</p>
+        </div>
+      </div>
+      <div class="col d-flex align-items-start">
+        <i class="bi bi-tools text-muted flex-shrink-0 me-3" style="font-size: 20px;"></i>
+        <div>
+          <h3 class="fw-bold mb-0 fs-4">Problem Solver</h3>
+          <p>I can identify problems, brainstorm and analyze answers, and implement the best solutions.</p>
+        </div>
+      </div>
+      <div class="col d-flex align-items-start">
+        <i class="bi bi-journal-code text-muted flex-shrink-0 me-3" style="font-size: 20px;"></i>
+        <div>
+          <h3 class="fw-bold mb-0 fs-4">Jupyter</h3>
+          <p>The usage of Jupyter Notebook in my <b><a id="g_p" href="https://github.com/iamunik/car_price_analysis">Car Price repo</a></b> project shows that I understand the tool.</p>
+        </div>
+      </div>
+      <div class="col d-flex align-items-start">
+        <i class="bi bi-graph-up text-muted flex-shrink-0 me-3" style="font-size: 20px;"></i>
+        <div>
+          <h3 class="fw-bold mb-0 fs-4">Visualization</h3>
+          <p>The usage of some libraries in my <b><a id="g_p" href="https://github.com/iamunik/analysis_py/blob/main/supermarket_analysis.ipynb">Supermarket Analysis</a></b> project shows that I can do visualizations.</p>
+        </div>
+      </div>
+    </div>
+  </section>
 
   <!-- Contact me DIV -->
   <br id="contact_me">
