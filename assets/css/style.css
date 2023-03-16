@@ -4,7 +4,7 @@
 body {
   font-family: "Open Sans", sans-serif;
   color: black;
-  background-color: white ;
+  background-color: whitesmoke ;
 }
 
 a {
@@ -1610,6 +1610,11 @@ section {
   text-align: justify;
 }
 
+#msg{
+  color: black;
+  display: block;
+}
+
 /* RESPONSIVE CSS
 -------------------------------------------------- */
 
@@ -1630,11 +1635,6 @@ section {
   .featurette-heading {
     margin-top: 7rem;
   }
-}
-
-#msg{
-  color: black;
-  display: block;
 }
 
 @viewport{
